@@ -5,6 +5,8 @@
 
 ## Link link to the deployment
 
+https://cecilestaller.github.io/js-project-idealWeight_pap/
+
 ## Used Tools
 
 - HTML5

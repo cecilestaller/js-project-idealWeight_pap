@@ -26,11 +26,11 @@ const idealWeight = () => {
     if (radioWide.checked === false && radioSlim.checked === false || heightInput.length === 0 || ageInput.length === 0) {
         error.textContent = "Please fill all input Fields with data and select a Body-Structure";
     } else if (radioWide.checked && heightInput.length > 0 && ageInput.length > 0) {
-        let calculateWide = Math.round(((heightInput - 100) + (ageInput / 10) * 0.9 * 1.1));
+        let calculateWide = Math.round(((heightInput - 100) + (ageInput / 10)) * 0.9 * 1.1);
         resultOutput.textContent = "Your ideal weight is " + calculateWide + " kilograms.";
         error.textContent = " ";
     } else if (radioSlim.checked && heightInput.length > 0 && ageInput.length > 0) {
-        let calculateSlim = Math.round(((heightInput - 100) + (ageInput / 10) * 0.9 * 0.9));
+        let calculateSlim = Math.round(((heightInput - 100) + (ageInput / 10)) * 0.9 * 0.9);
         resultOutput.textContent = "Your ideal weight is " + calculateSlim + " kilograms.";
         error.textContent = " ";
     } 
