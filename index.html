@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idealweight Calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Ideal-Weight-Calculator</h1>
+        <form onsubmit="return false">
+            <div>
+                <label for="height-input">Body Height [cm]<span>*</span></label>
+                <input type="number" name="height-input" id="height-input">
+            </div>
+            <div>
+                <label for="age-input">Age [years]<span>*</span></label>
+                <input type="number" name="age-input" id="age-input">
+            </div>
+            <div>
+                <p>Body-Structure<span>*</span></p>
+                <label for="wide"><input type="radio" name="body-input" id="wide"> wide</label>
+                <label for="slim"><input type="radio" name="body-input" id="slim"> slim</label>
+            </div>
+            <div>
+                <button type="submit" id="calculate-input">Submit</button>
+            </div>
+            <p class="error" id="error-content"></p>
+        </form>
+        <article>
+            <h2>Result: </h2>
+            <p id="result-output"></p>
+        </article>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

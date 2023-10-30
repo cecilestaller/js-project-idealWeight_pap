@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "nunito";
+  src: url(./../fonts/Nunito-VariableFont_wght.ttf);
+}
+body {
+  font-family: "nunito";
+  color: #043810;
+  margin: 10px;
+}
+body section {
+  background-color: #EAF4EA;
+  max-width: 400px;
+  margin: 2vh auto;
+  padding: 2vh 5%;
+  border-radius: 5px;
+  border: 0.5px solid #043810;
+}
+body section h1 {
+  margin-bottom: 2vh;
+}
+body section form {
+  max-width: 100%;
+}
+body section form div {
+  margin-block: 2vh;
+}
+body section form div span {
+  color: red;
+}
+body section form div label {
+  display: block;
+}
+body section form div input[type=number] {
+  width: 100%;
+  padding: 5px;
+}
+body section form div:nth-of-type(4) {
+  text-align: center;
+}
+body section form div:nth-of-type(4) button {
+  padding-block: 4px;
+  width: 100%;
+  background-color: #CEEEB5;
+  color: #043810;
+  border: 0.5px solid #043810;
+}
+body section form div:nth-of-type(4) button:hover {
+  background-color: #043810;
+  color: white;
+}
+body section form .error {
+  color: red;
+  margin-block: 2vh;
+}
+body section article h2 {
+  font-size: 1.25rem;
+}
+body section article p {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
